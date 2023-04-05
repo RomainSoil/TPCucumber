@@ -12,7 +12,7 @@ Feature: test de la banque
     Then le solde du compte <num> est de <attendu>
     Examples:
       | num | solde | montant | attendu |
-      | 1   | 1000  | 500     | 1500    |
+      | 1   | 1000  | 500     | 150     |
       | 2   | 0     | 2000    | 2000    |
 
   @Retrait
